@@ -1,4 +1,4 @@
-# Configuring environment && run the tests
+# E2E && Integration tests
 
 ## Install requirements using the following commands:
 change dir to _'/test/e2e/'_
@@ -38,7 +38,7 @@ change dir to _'/test/integration/'_
  - eg: `stc run -p "firefox" -s tests/ui-tests`
 
 
-# Running performance Tests
+# Performance tests
 Tests are using a version of jMeter 3.0 with custom plugins
 
 ## Install requirements
