@@ -1,0 +1,13 @@
+[
+  {
+    "chunks": 1,
+    "browserName": "chrome",
+    "platform": "Mac",
+    "version": 51,
+    "chromeOptions": {
+      "args": [
+        "disable-web-security"
+      ]
+    }
+  }
+]

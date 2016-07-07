@@ -1,0 +1,34 @@
+{
+    "build": {
+        "dir": "${workspace.dir}/build"
+    },
+    "packages": {
+        "dir": "${workspace.dir}/packages/local,${workspace.dir}/packages",
+        "extract": "${workspace.dir}/packages/remote"
+    },
+    "name": "E2E Testing",
+    "tests": {
+        "path": "project.json",
+        "browser": {
+            "farms": [
+                {
+                    "name": "local",
+                    "type": "generic",
+                    "host": "127.0.0.1",
+                    "port": 4444,
+                    "autoStartTunnel": false,
+                    "pools": [
+                        {
+                            "name": "firefox",
+                            "path": "firefox.json"
+                        },
+                        {
+                            "name": "chrome",
+                            "path": "chrome.json"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,3 +1,4 @@
 /node_modules
-/test_reports
+e2e/node_modules
+integration/node_modules
 .idea/

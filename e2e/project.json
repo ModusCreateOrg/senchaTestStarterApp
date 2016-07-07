@@ -1,0 +1,48 @@
+{
+  "framework": "jasmine",
+  "libs": [
+    {
+      "disabled": false,
+      "path": "/e2e/pages/common/page3.po.js"
+    },
+    {
+      "disabled": false,
+      "path": "/e2e/pages/common/page4.po.js"
+    },
+    {
+      "disabled": false,
+      "path": "/e2e/helpers/helpers.js"
+    }
+  ],
+  "coverageFilters": [],
+  "scenarios": [
+    {
+      "libs": [
+        {
+          "disabled": false,
+          "path": "/e2e/pages/page1/page1.po.js"
+        }
+      ],
+      "coverageFilters": [],
+      "directory": "e2e/tests/scope1",
+      "name": "e2e-UserLogin",
+      "launch": false,
+      "page": ""
+    },
+    {
+      "libs": [
+        {
+          "disabled": false,
+          "path": "/e2e/pages/page2/page2.po.js"
+        }
+      ],
+      "coverageFilters": [],
+      "directory": "e2e/tests/scope2",
+      "name": "e2e-AdminPanel",
+      "launch": false,
+      "page": "/admin"
+    }
+  ],
+  "subjectUrl": "[APPLICATION_BASE_URL]",
+  "globals": "ApplicatioName\n$\nmock"
+}

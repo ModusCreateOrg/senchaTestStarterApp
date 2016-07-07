@@ -1,0 +1,29 @@
+{
+  "framework": "jasmine",
+  "libs": [
+    {
+      "disabled": false,
+      "path": "/integration/helpers/helpers.js"
+    }
+  ],
+  "coverageFilters": [],
+  "scenarios": [
+    {
+      "libs": [],
+      "coverageFilters": [],
+      "directory": "integration/tests/scope1",
+      "name": "integration-User",
+      "launch": false,
+      "page": "/user"
+    },
+    {
+      "libs": [],
+      "coverageFilters": [],
+      "directory": "integration/tests/scope2",
+      "name": "integration-AdminPanel",
+      "launch": false,
+      "page": "/admin"
+    }
+  ],
+  "globals": "ApplicatioName\n$\nmock"
+}
